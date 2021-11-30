@@ -1,0 +1,58 @@
+*{
+    font-family: poppins extralight, sans serif;
+}
+
+
+.container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+    
+}
+
+#addToDo{
+    background:green;
+    color: white;
+    border-radius: 7px;
+    outline: none;
+}
+
+#addToDo:hover{
+    background-color:#65c065;
+}
+
+#clearToDo:hover{
+    background: rgb(250, 70, 70);
+}
+
+
+#clearToDo{
+background: rgb(201, 3, 3);
+color: white;
+border-radius: 7px;
+outline: none;
+}
+
+#inputText{
+    width: 17rem;
+   
+}
+
+li{
+    list-style-type: square;
+}
+
+.list-styling{
+    color: green;
+    text-transform: capitalize;
+    
+    
+    
+    
+}
+
+.to-dos{
+    cursor: pointer;
+}
